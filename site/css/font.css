@@ -1,0 +1,41 @@
+
+@import url(vars.css);
+
+/* weight **/
+.lato-regular{
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+}
+
+.lato-light{
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-light);
+}
+
+.lato-bold{
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-bold);
+}
+
+/* size**/
+.font-xsm{
+    font-size: var(--fs-xsm);
+}
+.font-sm{
+    font-size: var(--fs-sm);
+}
+.font-rg{
+    font-size: var(--fs-rg);
+}
+.font-md{
+    font-size: var(--fs-md);
+}
+.font-mdl{
+    font-size: var(--fs-mdl);
+}
+.font-lg{
+    font-size: var(--fs-lg);
+}
+.font-xlg{
+    font-size: var(--fs-xlg);
+}

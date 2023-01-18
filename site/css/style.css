@@ -1,0 +1,58 @@
+@import url(/css/vars.css);
+@import url(font.css);
+@import url(color.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row-height{
+    height: 100px;
+}
+
+/* HEADER ***********/
+
+/* desing & code **/
+
+.green-header{
+    background-color: var(--clr-green-200);   
+}
+
+.square-white{
+    border-image: initial;
+    border: 1px solid var(--clr-white-100);
+}
+
+/* desing & code end **/
+
+/* btn **/
+    .btn-backgroundGreen{
+        background-color: var(--clr-green-100);
+    }
+/* btn end **/
+
+/* HEADER END ************************/
+
+/* SECTION ************************/
+
+.white-section{
+    background-color: var(--clr-white-200);
+}
+
+.square-gray{
+    border-image: initial;
+    border: 1px solid var(--clr-gray-200);
+}
+
+/* SECTION END **************************/
+
+/* FOOTER **********/
+
+.black-footer{
+    background-color: var(--clr-black-100);
+}
+
+/* FOOTER END **********/
+
+

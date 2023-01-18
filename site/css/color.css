@@ -1,0 +1,33 @@
+@import url(vars.css);
+
+.green-light{
+    color: var(--clr-green-100);
+}
+
+.green-dark{
+    color: var(--clr-green-200);
+}
+
+.white-light{
+    color: var(--clr-white-100);
+}
+
+.white-dark{
+    color: var(--clr-white-200);
+}
+
+.gray-light{
+    color: var(--clr-gray-100);
+}
+
+.gray-dark{
+    color: var(--clr-gray-200);
+}
+
+.blue-dark{
+    color: var(--clr-blue-400);
+}
+
+.black-clr{
+    color: var(--clr-black-100);
+}
