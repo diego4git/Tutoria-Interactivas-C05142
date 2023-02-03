@@ -1,0 +1,49 @@
+
+.container{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background: rgb(206, 207, 186);
+    margin: auto;
+    overflow: hidden;
+}
+
+#score{
+    color: black;
+    font-size: x-large;
+    padding: 1.2rem;
+}
+
+#timer{
+    color: black;
+    font-size: x-large;
+    padding: 1.2rem;
+}
+
+#boxes{
+    position: absolute;
+    bottom: 0;
+}
+
+.box{
+    /* position: absolute;
+    bottom: 70px; */
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.object{
+    position: absolute;
+    bottom: 70px;
+    width: 70px;
+    height: 70px;
+}
+
+.wood-box{ background: url(../imgs/wood-box.png);}
+.bomb{ background: url(../imgs/bomb.png);}
+.clock{ background: url(../imgs/clock.png);}
+.bottle-green{ background: url(../imgs/green-bottle.png);}
+.bottle-purple{ background: url(../imgs/purple-botle.png);}
+.start{ background: url(../imgs/star.png);}
+.rock{ background: url(../imgs/rock.png);}
