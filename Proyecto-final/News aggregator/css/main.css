@@ -1,0 +1,169 @@
+
+:root {
+    --background: #141415;
+    --background2: #2e2e30;
+    --text: #fff;
+    --buttoms: #f52828;
+    --margenes: 90%;/*ancho de la web*/
+    --max-W: 1720px;/*ancho maximo*/
+}
+
+/* Header **/
+.menu-img{
+    height: 3rem;
+    width: 5rem;
+}
+
+.bg-oscuro{
+    color: var(--background);
+}
+
+/* Header end **/
+
+/* Top menu **/
+#sc-filtro, #sc-cards {
+    display: block;
+    position: relative;
+    padding: .5rem 2.7rem 1rem;
+}
+
+#sc-filtro>ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+}
+
+#sc-filtro>ul>li>a {
+    margin: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #c1c1c1;
+    text-decoration: none;
+}
+
+#sc-filtro>ul>li>a:hover {
+    color: #fff;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+
+#sc-filtro>ul>li>a:target {
+    color: #fff;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+
+/* Top menu end **/
+
+/*Cards*/
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 2vw;
+
+}
+
+.card {
+    background-color: var(--background2);
+    height: 500px;
+    border-radius: 6px;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.card-image {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.card-body {
+    /*calcula la mitad de la imagen menos el pading que se añade*/
+    height: calc(50% - 2rem);
+    padding: 1rem;
+}
+
+.card>.card-body>h5 {
+    margin-top: 0;
+    color: var(--text);
+}
+
+.card>.card-body>p {
+    height: 50%;
+    color: var(--text);
+
+}
+/*Cards end*/
+
+/* Footer **/
+.footer-img{
+    height: 3rem;
+    width: 3rem;
+}
+/* Footer end **/
+
+.boton {
+    background-color: var(--buttoms);
+    padding: 10px 14px;
+    border-radius: 6px;
+    color: var(--text);
+    text-align: center;
+    text-decoration: none;
+}
+
+.alg-full {
+    display: inline-block;
+    width: 90% !important;
+    margin: auto !important;
+
+}
+
+/*responsive*/
+@media (max-width:576px) {
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .search {
+        width: 25vw;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .search {
+        width: 25vw;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .search {
+        width: 25vw;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .cards-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .search {
+        width: 15vw;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+    .cards-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
